@@ -1,0 +1,30 @@
+labels:
+- name: sklearn
+  children:
+  - name: training
+    children:
+    - write-train-method
+    - write-train-script
+  - name: metrics
+    children:
+    - implement
+    - modify-train-method
+    - write-evaluate-method
+  - evaluate-results
+  - report
+- name: nn
+  children:
+  - name: implement
+    children:
+    - train-method
+    - log-metrics
+    - tensorboard
+    - implement-evaluate
+    - write-train-script
+  - name: modules
+    children:
+    - mlp
+    - cnn
+    - train-models
+  - report
+source: /home/anton/git/exam-2020/src/A3/document/main.tex
